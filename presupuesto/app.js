@@ -547,14 +547,14 @@ function copyConfig() {
 function handleWhatsAppClick() {
     const configText = generateConfigText(true);
     const encodedText = encodeURIComponent(configText);
-    const waUrl = `https://wa.me/5491131184780?text=${encodedText}`;
+    const waUrl = `https://wa.me/5491169578193?text=${encodedText}`;
     window.open(waUrl, '_blank');
 }
 
 function handleWhatsAppSingleClick() {
     const configText = generateConfigText(false);
     const encodedText = encodeURIComponent(configText);
-    const waUrl = `https://wa.me/5491131184780?text=${encodedText}`;
+    const waUrl = `https://wa.me/5491169578193?text=${encodedText}`;
     window.open(waUrl, '_blank');
 }
 
